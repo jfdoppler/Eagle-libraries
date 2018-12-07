@@ -3,7 +3,9 @@ Librerias de eagle dibujadas
 
 Las librerias fueron creadas usando Eagle 7.7.0
 
-Los archivos deben copiarse en la carpeta /home/user/eagle-7.7.0/lbr para poder utilizarlos
+Uso recomendado:
+Clonar el repositorio en una carpeta apropiada.
+En Eagle Options > Directories agregar la carpeta del repositorio al path de "Libraries"
 
 # scha9b0101.lbr
 
