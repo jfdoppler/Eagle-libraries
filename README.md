@@ -32,3 +32,4 @@ Drawing: http://www.jae.com/z-en/pdf_download_exec.cfm?param=SJ117219.pdf
 
 Librería clonada de https://github.com/chiengineer/Eagle-Libraries/blob/master/Diodes/lm385.lbr
 
+Modificada segun datasheet http://www.ti.com/lit/ds/snvs741f/snvs741f.pdf para que se ajuste al TO92 que tenemos
