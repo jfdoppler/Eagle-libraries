@@ -1,12 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="7.5.0">
+<eagle version="9.2.2">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
+<setting keepoldvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
+<grid distance="0.01" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
@@ -38,7 +39,7 @@
 <layer number="42" name="bRestrict" color="1" fill="10" visible="yes" active="yes"/>
 <layer number="43" name="vRestrict" color="2" fill="10" visible="yes" active="yes"/>
 <layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
-<layer number="45" name="Holes" color="7" fill="1" visible="no" active="yes"/>
+<layer number="45" name="Holes" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="46" name="Milling" color="3" fill="1" visible="no" active="yes"/>
 <layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
 <layer number="48" name="Document" color="7" fill="1" visible="yes" active="yes"/>
@@ -101,35 +102,15 @@
 <wire x1="5.5" y1="3.5" x2="5.5" y2="-3.5" width="0.127" layer="21"/>
 <text x="-3.2" y="4.5" size="1.27" layer="25">&gt;NAME</text>
 <text x="-3.6" y="-5.8" size="1.27" layer="27">&gt;VALUE</text>
-<circle x="-3.5" y="1.35" radius="0.22360625" width="0.127" layer="1"/>
-<circle x="3.5" y="1.35" radius="0.22360625" width="0.127" layer="1"/>
-<circle x="-3.55" y="0" radius="0.22360625" width="0.127" layer="1"/>
-<circle x="3.5" y="0" radius="0.22360625" width="0.127" layer="1"/>
-<polygon width="0.127" layer="1">
-<vertex x="-3.3" y="2.8"/>
-<vertex x="-3.85" y="2.8"/>
-<vertex x="-3.85" y="3.25"/>
-<vertex x="-3.3" y="3.25"/>
-</polygon>
-<polygon width="0.127" layer="1">
-<vertex x="-3.5" y="-3.15"/>
-<vertex x="-4.1" y="-3.15"/>
-<vertex x="-4.1" y="-2.7"/>
-<vertex x="-3.5" y="-2.7"/>
-</polygon>
-<polygon width="0.127" layer="1">
-<vertex x="3.9" y="-3.25"/>
-<vertex x="3.25" y="-3.25"/>
-<vertex x="3.25" y="-2.8"/>
-<vertex x="3.9" y="-2.8"/>
-</polygon>
-<polygon width="0.127" layer="1">
-<vertex x="3.9" y="2.85"/>
-<vertex x="3.3" y="2.85"/>
-<vertex x="3.3" y="3.3"/>
-<vertex x="3.9" y="3.3"/>
-</polygon>
-<smd name="P$1" x="0" y="3.35" dx="1.27" dy="0.635" layer="1" rot="R90"/>
+<circle x="-3.5" y="1.35" radius="0.3" width="0.127" layer="1"/>
+<circle x="3.5" y="1.35" radius="0.3" width="0.127" layer="1"/>
+<smd name="P$1" x="0" y="2.88" dx="1.27" dy="0.635" layer="1" rot="R90"/>
+<rectangle x1="3.5" y1="2.67" x2="4.8" y2="3.47" layer="1"/>
+<rectangle x1="-4.8" y1="2.67" x2="-3.5" y2="3.47" layer="1"/>
+<rectangle x1="3.5" y1="-3.47" x2="4.8" y2="-2.67" layer="1"/>
+<rectangle x1="-4.8" y1="-3.47" x2="-3.5" y2="-2.67" layer="1"/>
+<rectangle x1="-4.275" y1="-0.275" x2="-3.325" y2="0.275" layer="1"/>
+<rectangle x1="3.325" y1="-0.275" x2="4.275" y2="0.275" layer="1"/>
 </package>
 </packages>
 <symbols>
