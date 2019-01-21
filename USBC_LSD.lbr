@@ -64,7 +64,7 @@
 <smd name="EXTRA3B" x="-1.25" y="-2.7" dx="1.4" dy="0.254" layer="1" rot="R90"/>
 <smd name="NC7" x="-0.75" y="-2.7" dx="1.4" dy="0.254" layer="1" rot="R90"/>
 <smd name="-12V" x="-0.25" y="-2.7" dx="1.4" dy="0.254" layer="1" rot="R90"/>
-<smd name="EXTRA4" x="0.25" y="-2.7" dx="1.4" dy="0.254" layer="1" rot="R90"/>
+<smd name="OUTHR" x="0.25" y="-2.7" dx="1.4" dy="0.254" layer="1" rot="R90"/>
 <smd name="OUTT" x="0.75" y="-2.7" dx="1.4" dy="0.254" layer="1" rot="R90"/>
 <smd name="EXTRA3D" x="1.25" y="-2.7" dx="1.4" dy="0.254" layer="1" rot="R90"/>
 <smd name="NC3" x="1.75" y="-2.7" dx="1.4" dy="0.254" layer="1" rot="R90"/>
@@ -186,7 +186,7 @@
 <connect gate="G$1" pin="B3" pad="NC3"/>
 <connect gate="G$1" pin="B4" pad="EXTRA3D"/>
 <connect gate="G$1" pin="B5" pad="OUTT"/>
-<connect gate="G$1" pin="B6" pad="EXTRA4"/>
+<connect gate="G$1" pin="B6" pad="OUTHR"/>
 <connect gate="G$1" pin="B7" pad="-12V"/>
 <connect gate="G$1" pin="B8" pad="NC7"/>
 <connect gate="G$1" pin="B9" pad="EXTRA3B"/>
