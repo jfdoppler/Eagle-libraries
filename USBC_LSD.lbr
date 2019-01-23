@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="mm"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
@@ -22,25 +22,25 @@
 <layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="27" name="tValues" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="28" name="bValues" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="29" name="tStop" color="7" fill="3" visible="no" active="yes"/>
-<layer number="30" name="bStop" color="7" fill="6" visible="no" active="yes"/>
-<layer number="31" name="tCream" color="7" fill="4" visible="no" active="yes"/>
-<layer number="32" name="bCream" color="7" fill="5" visible="no" active="yes"/>
-<layer number="33" name="tFinish" color="6" fill="3" visible="no" active="yes"/>
-<layer number="34" name="bFinish" color="6" fill="6" visible="no" active="yes"/>
-<layer number="35" name="tGlue" color="7" fill="4" visible="no" active="yes"/>
-<layer number="36" name="bGlue" color="7" fill="5" visible="no" active="yes"/>
-<layer number="37" name="tTest" color="7" fill="1" visible="no" active="yes"/>
-<layer number="38" name="bTest" color="7" fill="1" visible="no" active="yes"/>
+<layer number="29" name="tStop" color="7" fill="3" visible="yes" active="yes"/>
+<layer number="30" name="bStop" color="7" fill="6" visible="yes" active="yes"/>
+<layer number="31" name="tCream" color="7" fill="4" visible="yes" active="yes"/>
+<layer number="32" name="bCream" color="7" fill="5" visible="yes" active="yes"/>
+<layer number="33" name="tFinish" color="6" fill="3" visible="yes" active="yes"/>
+<layer number="34" name="bFinish" color="6" fill="6" visible="yes" active="yes"/>
+<layer number="35" name="tGlue" color="7" fill="4" visible="yes" active="yes"/>
+<layer number="36" name="bGlue" color="7" fill="5" visible="yes" active="yes"/>
+<layer number="37" name="tTest" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="38" name="bTest" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="39" name="tKeepout" color="4" fill="11" visible="yes" active="yes"/>
 <layer number="40" name="bKeepout" color="1" fill="11" visible="yes" active="yes"/>
 <layer number="41" name="tRestrict" color="4" fill="10" visible="yes" active="yes"/>
 <layer number="42" name="bRestrict" color="1" fill="10" visible="yes" active="yes"/>
 <layer number="43" name="vRestrict" color="2" fill="10" visible="yes" active="yes"/>
-<layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
-<layer number="45" name="Holes" color="7" fill="1" visible="no" active="yes"/>
-<layer number="46" name="Milling" color="3" fill="1" visible="no" active="yes"/>
-<layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
+<layer number="44" name="Drills" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="45" name="Holes" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="yes" active="yes"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="48" name="Document" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="49" name="Reference" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="yes"/>
@@ -101,7 +101,7 @@
 <wire x1="5.5" y1="3.5" x2="5.5" y2="-3.5" width="0.127" layer="21"/>
 <text x="-3.2" y="4.5" size="1.27" layer="25">&gt;NAME</text>
 <text x="-3.6" y="-5.8" size="1.27" layer="27">&gt;VALUE</text>
-<circle x="-3.5052" y="1.3462" radius="0.3048" width="0.127" layer="1"/>
+<circle x="-3.5" y="1.4" radius="0.3048" width="0.127" layer="1"/>
 <circle x="3.5052" y="1.4986" radius="0.3048" width="0.127" layer="1"/>
 <rectangle x1="-4.8006" y1="2.667" x2="-3.5052" y2="3.4798" layer="1"/>
 <rectangle x1="3.5052" y1="2.667" x2="4.8006" y2="3.4798" layer="1"/>
@@ -109,6 +109,39 @@
 <rectangle x1="3.5052" y1="-3.4798" x2="4.8006" y2="-2.667" layer="1"/>
 <rectangle x1="-4.2672" y1="-0.2794" x2="-3.3274" y2="0.2794" layer="1"/>
 <rectangle x1="3.3274" y1="-0.2794" x2="4.2672" y2="0.2794" layer="1"/>
+<polygon width="0.127" layer="29">
+<vertex x="-4.8" y="-2.4"/>
+<vertex x="-3.4" y="-2.4"/>
+<vertex x="-3.4" y="-3.8"/>
+<vertex x="-5" y="-3.8"/>
+<vertex x="-5" y="-2.4"/>
+</polygon>
+<polygon width="0.127" layer="29">
+<vertex x="3.4" y="-2.4"/>
+<vertex x="5" y="-2.4"/>
+<vertex x="5" y="-3.8"/>
+<vertex x="3.4" y="-3.8"/>
+</polygon>
+<polygon width="0.127" layer="29">
+<vertex x="-5" y="3.8"/>
+<vertex x="-3.4" y="3.8"/>
+<vertex x="-3.4" y="2.4"/>
+<vertex x="-5" y="2.4"/>
+</polygon>
+<polygon width="0.127" layer="29">
+<vertex x="3.4" y="3.8"/>
+<vertex x="5" y="3.8"/>
+<vertex x="5" y="2.4"/>
+<vertex x="3.4" y="2.4"/>
+</polygon>
+<hole x="-4.2" y="3.1" drill="1"/>
+<hole x="-4.2" y="-3.1" drill="1"/>
+<hole x="4.2" y="-3.1" drill="1"/>
+<hole x="4.2" y="3.1" drill="1"/>
+<hole x="3.5" y="1.5" drill="0.7"/>
+<hole x="-3.5" y="1.4" drill="0.7"/>
+<hole x="-3.8" y="0" drill="0.7"/>
+<hole x="3.8" y="0" drill="0.7"/>
 </package>
 </packages>
 <symbols>
